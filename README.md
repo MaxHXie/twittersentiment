@@ -16,8 +16,8 @@ pip install nltk
   >>python
   >>import nltk
   >>nltk.download()
+  #install the package all_nltk
   ```
-  install the package **all_nltk**
   
 4. Make sure these files exist in the folder "data":
   1. **trainData.csv**
