@@ -1,21 +1,21 @@
 # TWITTER SENTIMENT ANALYSER
-AUTHOR: MAX XIE MAXXIE@KTH.SE
+Author: Max Xie, maxxie@kth.se
 
 ### BEFORE DEPLOYING
 --------------------------
 
-1. MAKE SURE YOUR ENVIRONMENT IS USING PYTHON 3.X
+1. Make sure your environment is using python 3.x
 
-2. MAKE SURE YOU HAVE THE NLTK PYTHON PACKAGE INSTALLED 
+2. Make sure you have the NLTK python package installed
 
-3. DOWNLOAD ALL PACKAGES FROM NLTK VIA
+3. Download all packages from NLTK via 
   ```
   >>python
   >>import nltk
   >>nltk.download()
   ```
   
-4. MAKE SURE THESE FILES EXIST IN THE FOLDER "data":
+4. Make sure these files exist in the folder "data":
   1. **trainData.csv**
   2. **testData.csv**
   3. **test.csv**
@@ -23,7 +23,7 @@ AUTHOR: MAX XIE MAXXIE@KTH.SE
 ### BUILDING THE MODEL
 --------------------------
 RUN THE FILE: **ModelBuilder.py**
-MODEL IS STORED IN THE FILE: **data/modelFile.csv**
+Model is stored in the file: **data/modelFile.csv**
 
 ### RUNNING THE MODEL
 --------------------------
@@ -33,5 +33,5 @@ if **data/modelFile.csv** does not exist, then run the file: **Modelbuilder.py**
 
 ### TESTING THE MODEL
 --------------------------
-1. CHOOSE ENTER FILE
-2. ENTER "data/testData.csv"
+1. Choose "ENTER FILE"
+2. Input "data/testData.csv"
