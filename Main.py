@@ -54,6 +54,7 @@ class Main:
                     confusion_matrix[guess_sentiment][true_sentiment] += 1
         except:
             pass
+        print("Confusion matrix:")
         print(confusion_matrix)
 
     def testText(self, text):
