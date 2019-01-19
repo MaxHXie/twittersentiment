@@ -15,7 +15,7 @@ Author: Max Xie, maxxie@kth.se
   >>nltk.download()
   ```
   
-4. Make sure these files exist in the folder "data":  
+4. Make sure these files exist in the folder "data":
   1. **trainData.csv**
   2. **testData.csv**
   3. **test.csv**
@@ -34,4 +34,5 @@ if **data/modelFile.csv** does not exist, then run the file: **Modelbuilder.py**
 ### TESTING THE MODEL
 --------------------------
 1. Choose "ENTER FILE"  
+
 2. Input "data/testData.csv"  
