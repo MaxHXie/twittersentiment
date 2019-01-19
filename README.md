@@ -1,6 +1,20 @@
 # TWITTER SENTIMENT ANALYSER
 Author: Max Xie, maxxie@kth.se
 
+### ABOUT THE DATA
+--------------------------
+Training data (trainData.csv): 65000 datapoints.   
+Test data (testData.csv): 20000 datapoints.  
+
+Datapoint has 4 attributes:
+  1. Datapoint index number
+  2. True sentiment (1=positive, 0=negative)
+  3. Name of data source
+  4. Tweet message
+
+Example datapoint:  
+532606,1,Sentiment140,Almost done unpacking!!!!! Beautiful day in my new city
+
 ### BEFORE DEPLOYING
 --------------------------
 
