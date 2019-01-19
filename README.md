@@ -6,7 +6,10 @@ Author: Max Xie, maxxie@kth.se
 
 1. Make sure your environment is using python 3.x  
 
-2. Make sure you have the NLTK python package installed  
+2. Make sure you have the NLTK python package installed using:  
+```
+pip install nltk
+```
 
 3. Download all packages from NLTK via  
   ```
@@ -14,6 +17,7 @@ Author: Max Xie, maxxie@kth.se
   >>import nltk
   >>nltk.download()
   ```
+  install the package **all_nltk**
   
 4. Make sure these files exist in the folder "data":
   1. **trainData.csv**
